@@ -1,0 +1,53 @@
+body{
+    background-image: url(../assets/fondo-prueba.jpg);
+}
+.title{
+    padding-top:45px ;
+    padding-left: 75px;
+}
+.title h1{
+    font-size: 95px;
+    padding-bottom: 25px;
+    font-weight: bold;
+    color: white;
+}
+.cajaPrecentacion{
+    background-color: #434344;
+    height: 550px;
+    width: 850px;
+    position: relative;
+    margin-top: 112px;
+    left: 135px;
+}
+h2{
+    text-align: center;
+    font-size: 45px;
+    color: white;
+}
+
+.proyectos{
+    display: flex;
+    flex-direction: row;
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.cardUno{
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.btnCv{
+   text-align: center; 
+   margin-top: 180px;
+}   
+.buttonCv{
+    border-radius: 5px;
+    border: solid 1px;
+    border-color: darkgray;
+    background-color: rgb(3, 3, 109);
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+p{
+    color: #fff;
+}
