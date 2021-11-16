@@ -13,11 +13,12 @@ body{
 }
 .cajaPrecentacion{
     background-color: #434344;
-    height: 550px;
-    width: 850px;
+    height: 450px;
+    width: 855px;
     position: relative;
     margin-top: 112px;
     left: 135px;
+    margin-bottom: 135px;
 }
 h2{
     text-align: center;
@@ -39,15 +40,7 @@ h2{
    text-align: center; 
    margin-top: 180px;
 }   
-.buttonCv{
-    border-radius: 5px;
-    border: solid 1px;
-    border-color: darkgray;
-    background-color: rgb(3, 3, 109);
-    color: #fff;
-    cursor: pointer;
-    font-size: 20px;
-}
+
 p{
     color: #fff;
 }
@@ -56,4 +49,19 @@ p{
 }
 h4{
     color: #fff;
+}
+.btnCv{
+   border: blue;
+   border-radius: 6px;
+}
+.ubicacion{
+    display: flex;
+    flex-direction: row;
+}
+.fotoPortada{
+    float: right;
+    margin-top: -105px;
+}
+.subtitulo{
+    text-align: left;
 }
